@@ -27,6 +27,11 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
+.img {
+  display: block;
+  max-width: 100%;
+}
+
 .menu__list {
   display: flex;
   margin: 0;
