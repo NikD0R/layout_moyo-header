@@ -4,23 +4,8 @@ html {
   height: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
-ul[class] {
-  list-style: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -46,6 +31,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .menu__list-item + .menu__list-item {
@@ -53,6 +39,8 @@ body {
 }
 
 .menu__list-link {
+  text-decoration: none;
+  color: #000;
   display: flex;
   align-items: center;
   font-weight: 500;
